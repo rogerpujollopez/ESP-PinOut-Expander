@@ -23,10 +23,13 @@ Este proyecto utiliza un 8266 ESP01 y múltiples registros de desplazamiento 74H
 
 ## Requisitos
 - 8266 ESP01
-  ![Descripción de la imagen](imagenes/8266esp01-foto.png)
-  
-  <img src="imagenes/8266esp01-foto.png" alt="Descripción de la imagen" width="200"/>
+
+![Fotografía del ESP8266-ESP01](imagenes/8266esp01-foto.jpg)
+
 - Registros de desplazamiento 74HC595
+
+![Fotografía del TTL 74HC595](imagenes/74HC575-foto.jpg)
+
 - Fuente de alimentación de 3,3v
 - Cableado y conectores
 - Software de programación (Arduino IDE, por ejemplo)
