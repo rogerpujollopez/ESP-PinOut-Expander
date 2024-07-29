@@ -60,7 +60,29 @@ Para la prueba vamos a establecer que necesitamos 24 bit de salida, y en nuestro
 ```
 
 ## Contribuciones
-(Aquí puedes incluir detalles sobre cómo contribuir al proyecto)
+¡Gracias por tu interés en contribuir a este proyecto! Aquí tienes algunas maneras en las que puedes ayudar:
+
+1. **Reportar problemas**
+    - Si encuentras un error o tienes una sugerencia, por favor abre un issue en GitHub.
+    - Proporciona tanta información como sea posible (ejemplo de código, mensajes de error, etc.).
+
+2. **Discusiones y sugerencias**
+    - Participa en las discusiones de los issues existentes para compartir tus ideas y sugerencias.
+    - Propón nuevas ideas o mejoras en la sección de issues de GitHub.
+    - Usa las etiquetas correspondientes para categorizar tus issues (ej. `sugerencia`, `error`, `pregunta`).
+
+3. **Mejorar la documentación**
+    - Si tienes sugerencias para mejorar la documentación, abre un issue describiendo los cambios propuestos.
+    - Los mantenedores del proyecto revisarán tus sugerencias y realizarán las modificaciones necesarias.
+
+4. **Código de Conducta**
+    - Sé respetuoso y considerado en todas tus interacciones.
+    - Sigue el Código de Conducta del proyecto.
+
+Estamos emocionados de ver tus contribuciones. ¡Gracias por ayudarnos a mejorar!
+
+## Código de Conducta
+Este proyecto sigue el Código de Conducta para fomentar un entorno de colaboración positivo y respetuoso. Por favor, revisa el [Código de Conducta](CODE_OF_CONDUCT.md) antes de participar.
 
 ## Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE en este repositorio. Eres libre de utilizar, modificar y distribuir este software, siempre que se incluya una mención adecuada a los autores originales.
