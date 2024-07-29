@@ -10,6 +10,7 @@ Este proyecto maximiza la capacidad de salida del microcontrolador ESP8266 ESP01
 - [Definición del ejemplo de prueba](#definición-del-ejemplo-de-prueba)
 - [Material que necesitamos](#material-que-necesitamos)
 - [Diagrama de Conexiones](#diagrama-de-conexiones)
+- [Prototipo finalizado](#prototipo-finalizado)
 - [Librería C++](#librería-c)
 - [Ejemplos](#ejemplos)
 - [Contribuciones](#contribuciones)
