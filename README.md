@@ -54,6 +54,12 @@ Para la prueba vamos a establecer que necesitamos 24 bit de salida, y en nuestro
 ## Diagrama de Conexiones
 (Aquí puedes incluir un diagrama o una descripción detallada de las conexiones necesarias)
 
+## Prototipo finalizado
+El prototipo finalizado muestra el circuito completo con el ESP8266-ESP01 y los registros de desplazamiento 74HC595 conectados en una placa PCB perforada. En esta configuración, todos los componentes necesarios están ensamblados y el circuito está listo para ser utilizado.
+
+![Prototipo finalizado](imagenes/pcb-finalizada-foto.jpg)
+
+
 ## Librería C++
 La librería `ttl74595.h` proporciona una serie de métodos estáticos para controlar los registros de desplazamiento 74HC595. A continuación se describen los métodos públicos disponibles:
 
