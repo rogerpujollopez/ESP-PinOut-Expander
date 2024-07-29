@@ -10,6 +10,7 @@ Este proyecto maximiza la capacidad de salida del microcontrolador ESP8266 ESP01
 - [Definición del ejemplo de prueba](#definición-del-ejemplo-de-prueba)
 - [Material que necesitamos](#material-que-necesitamos)
 - [Diagrama de Conexiones](#diagrama-de-conexiones)
+- [Librería C++](#librería-c)
 - [Ejemplos](#ejemplos)
 - [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
@@ -52,6 +53,37 @@ Para la prueba vamos a establecer que necesitamos 24 bit de salida, y en nuestro
 
 ## Diagrama de Conexiones
 (Aquí puedes incluir un diagrama o una descripción detallada de las conexiones necesarias)
+
+## Librería C++
+La librería `ttl74595.h` proporciona una serie de métodos estáticos para controlar los registros de desplazamiento 74HC595. A continuación se describen los métodos públicos disponibles:
+
+### Métodos Públicos
+
+- `static void Instanciar();`
+  - **Descripción**: Inicializa la instancia de la librería. Este método debe ser llamado antes de usar cualquier otro método de la librería.
+
+- `static void Inicializar(uint8_t num);`
+  - **Descripción**: Inicializa el registro de desplazamiento con el número especificado.
+  - **Parámetros**:
+    - `num` - El número de registros de desplazamiento a inicializar.
+
+- `static void SetAllOn();`
+  - **Descripción**: Establece todos los bits del registro de desplazamiento a ON (1).
+
+- `static void SetAllOff();`
+  - **Descripción**: Establece todos los bits del registro de desplazamiento a OFF (0).
+
+- `static void SetBit(int numBit, bool valorBit);`
+  - **Descripción**: Establece el valor de un bit específico en el registro de desplazamiento.
+  - **Parámetros**:
+    - `numBit` - El número del bit que se va a establecer.
+    - `valorBit` - El valor del bit (`true` para ON, `false` para OFF).
+
+- `static String GetRegisters();`
+  - **Descripción**: Devuelve el estado actual de los registros de desplazamiento en formato hexadecimal.
+  - **Retorno**: Una cadena (`String`) que representa el estado actual de los registros de desplazamiento.
+
+Estos métodos proporcionan un control completo sobre los registros de desplazamiento 74HC595, permitiendo la manipulación individual de los bits así como el control de todos los bits simultáneamente.
 
 ## Ejemplos
 ```cpp
