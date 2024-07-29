@@ -22,7 +22,10 @@ Este proyecto utiliza un 8266 ESP01 y múltiples registros de desplazamiento 74H
 - Fácilmente ampliable.
 
 ## Requisitos
-- 8266 ESP01 ![Descripción de la imagen](imagenes/8266esp01-foto.png)
+- 8266 ESP01
+  ![Descripción de la imagen](imagenes/8266esp01-foto.png)
+  
+  <img src="imagenes/8266esp01-foto.png" alt="Descripción de la imagen" width="200"/>
 - Registros de desplazamiento 74HC595
 - Fuente de alimentación de 3,3v
 - Cableado y conectores
