@@ -16,7 +16,7 @@ Este proyecto maximiza la capacidad de salida del microcontrolador ESP8266 ESP01
 - [Referencias](#referencias)
 
 ## Introducción
-Este proyecto utiliza un 8266 ESP01 y múltiples registros de desplazamiento 74HC595 para expandir las salidas digitales disponibles, permitiendo controlar un mayor número de dispositivos con un número limitado de pines.
+Este proyecto utiliza un ESP8266-ESP01 y múltiples registros de desplazamiento 74HC595 para expandir las salidas digitales disponibles, permitiendo controlar un mayor número de dispositivos con un número limitado de pines.
 
 ## Características
 - Expansión de salidas digitales.
